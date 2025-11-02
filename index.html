@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="./styles.css" />
+    <!-- Font Awesome untuk icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Layout Utama -->
+    <div class="container">
+      <!-- Navbar -->
+      <header class="navbar">
+        <div class="browser-bar">
+          <div class="browser-controls">
+            <div class="control yellow"></div>
+            <div class="control green"></div>
+            <div class="control red"></div>
+          </div>
+
+          <div class="address-bar">
+            <span>www.Salfaniportofolio.com</span>
+          </div>
+
+          <div class="window-controls">
+            <button class="window-btn">_</button>
+            <button class="window-btn">□</button>
+            <button class="window-btn">×</button>
+          </div>
+        </div>
+
+        <nav class="nav-menu">
+          <ul>
+            <li class="active">
+              <a href="#home">
+                <i class="fas fa-home"></i>
+                <span>Home</span>
+              </a>
+            </li>
+            <li>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/Salfanikh" target="_blank">
+                <i class="fab fa-github"></i>
+                <span>GitHub</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/ical_ceolaguna" target="_blank">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- Konten Utama -->
+      <main class="content">
+        <div class="profile-card-container">
+          <!-- Profile Card Kiri -->
+          <div class="profile-card">
+            <div class="card-inner">
+              <!-- Bagian Depan Kartu -->
+              <div class="card-front teal">
+                <div class="card-header">
+                  <div class="browser-controls">
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                    <div class="control red"></div>
+                  </div>
+                  <div class="card-title">Profile</div>
+                  <div class="window-controls">
+                    <button class="window-btn">×</button>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <img
+                    class="profile-image"
+                    src="Foto.jpeg"
+                    alt="Profile"
+                  />
+                  <h3>Salfani Khairussalim</h3>
+                  <p>Mahasiswa Teknologi Informasi</p>
+                  <p>Npm:2410010363</p>
+                  <p>Web developer</p>
+                  <div class="flip-hint">(Click to flip)</div>
+                </div>
+              </div>
+
+              <!-- Bagian Belakang Kartu -->
+              <div class="card-back teal">
+                <div class="card-header">
+                  <div class="browser-controls">
+                    <div class="control yellow"></div>
+                    <div class="control green"></div>
+                    <div class="control red"></div>
+                  </div>
+                  <div class="card-title">Skills</div>
+                  <div class="window-controls">
+                    <button class="window-btn">×</button>
+                  </div>
+                </div>
+                <div class="card-content">
+                  <h3>Tech Stacks</h3>
+                  <ul class="skill-list">
+                    <li><div class="bullet"></div>PHP</li>
+                    <li><div class="bullet"></div>HTML</li>
+                    <li><div class="bullet"></div>Laravel</li>
+                    <li><div class="bullet"></div>CSS</li>
+                    <li><div class="bullet"></div>MySQL</li>
+                  </ul>
+                  <div class="flip-hint">(Click to flip back)</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Konten Tengah -->
+          <div class="main-content">
+            <div class="window">
+              <div class="card-header">
+                <div class="browser-controls">
+                  <div class="control yellow"></div>
+                  <div class="control green"></div>
+                  <div class="control red"></div>
+                </div>
+                <div class="card-title">Welcome</div>
+                <div class="window-controls">
+                  <button class="window-btn">×</button>
+                </div>
+              </div>
+
+              <div class="window-content">
+                <div class="text-center">
+                  <h1>Portofolio Website</h1>
+                  <p>Portofolio Klasik</p>
+                </div>
+
+                <!-- Tentang Saya -->
+                <section class="content-section">
+                  <h2 class="section-title yellow-bg">Tentang Saya</h2>
+                  <button id="faktaBtn" class="retro-btn">Tampilkan Fakta Menarik</button>
+
+                  <p>
+                    Selamat datang di situs saya! Saya seorang mahasiswa yang tengah menempuh studi di bidang teknologi informasi. Saya memiliki minat besar dalam pengembangan 
+                    web dan desain antarmuka yang estetik. Website ini saya buat sebagai wadah untuk menampilkan karya, eksperimen, serta perjalanan belajar saya di dunia pemrograman.
+                  </p>
+                </section>
+
+                <!-- Bahasa Pemrograman -->
+                <section class="content-section">
+                  <h2 class="section-title teal-bg">Bahasa Pemrograman</h2>
+                  <div class="projects-grid">
+                    <div class="project-card">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg"
+                        alt="HTML & CSS"
+                        class="project-image"
+                      />
+                      <h3>HTML & CSS</h3>
+                      <p>Dasar dalam membangun struktur dan tampilan website.</p>
+                    </div>
+
+                    <div class="project-card">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                        alt="JavaScript"
+                        class="project-image"
+                      />
+                      <h3>JavaScript</h3>
+                      <p>Digunakan untuk menambahkan interaktivitas dan logika pada web.</p>
+                    </div>
+
+                    <div class="project-card">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Laravel.svg"
+                        alt="Laravel"
+                        class="project-image"
+                      />
+                      <h3>Laravel</h3>
+                      <p>Framework PHP modern untuk mengembangkan aplikasi web dinamis.</p>
+                    </div>
+
+                    <div class="project-card">
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png"
+                        alt="MySQL"
+                        class="project-image"
+                      />
+                      <h3>MySQL</h3>
+                      <p>Database relasional untuk menyimpan data aplikasi dengan aman dan efisien.</p>
+                    </div>
+                  </div>
+                </section>
+
+                <!-- Kontak -->
+                <section class="content-section">
+                  <h2 class="section-title pink-bg">Kontak</h2>
+                  <div class="contact-info">
+                    <div class="contact-item">
+                      <div class="contact-bullet teal-bg"></div>
+                      <span>Salfany152@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                      <div class="contact-bullet yellow-bg"></div>
+                      <span>Salfani</span>
+                    </div>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+
+        <div class="profile-card">
+  <div class="card-inner">
+    <div class="card-front yellow">
+      <div class="card-header">
+        <div class="browser-controls">
+          <div class="control yellow"></div>
+          <div class="control green"></div>
+          <div class="control red"></div>
+        </div>
+        <div class="card-title">Contact</div>
+        <div class="window-controls">
+          <button class="window-btn">×</button>
+        </div>
+      </div>
+      <div class="card-content">
+        <img
+          class="profile-image"
+          src="https://cdn-icons-png.flaticon.com/512/732/732200.png"
+          alt="Contact Icon"
+        />
+        <h3>Hubungi Saya</h3>
+        <p>Klik untuk lihat detail kontak</p>
+        <div class="flip-hint">(Click to flip)</div>
+      </div>
+    </div>
+
+    <div class="card-back yellow">
+      <div class="card-header">
+        <div class="browser-controls">
+          <div class="control yellow"></div>
+          <div class="control green"></div>
+          <div class="control red"></div>
+        </div>
+        <div class="card-title">Kontak</div>
+        <div class="window-controls">
+          <button class="window-btn">×</button>
+        </div>
+      </div>
+      <div class="card-content">
+        <ul class="skill-list">
+          <li><i class="fas fa-envelope"></i> salfany152@gmail.com</li>
+          <li><i class="fab fa-whatsapp"></i> +62 895 4019 37020</li>
+          <li><i class="fab fa-telegram"></i> @salfani</li>
+        </ul>
+        <div class="flip-hint">(Click to flip back)</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+  </body>
+</html>
