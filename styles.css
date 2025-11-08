@@ -394,3 +394,17 @@ body::before {
   background-color: #ffe066;
   transform: scale(1.05);
 }
+.profile-image {
+  width: 96px;
+  height: 96px;
+  border-radius: 50%;
+  border: 2px solid black;
+  object-fit: cover; /* biar proporsional dan tajam */
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+}
+.profile-image {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+
