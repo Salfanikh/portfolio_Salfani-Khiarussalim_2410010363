@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const tombolFakta = document.getElementById("faktaBtn");
 
   tombolFakta.addEventListener("click", function () {
-    alert("Fakta menarik: Saya suka mendesain website dengan gaya retro sambil ngopi di malam hari!");
+    alert("Fakta menarik: Saya pernah ngoding seharian cuma buat nyari error yang ternyata cuma salah titik koma!");
   });
 });
+
 
